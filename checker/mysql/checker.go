@@ -18,7 +18,7 @@ func New() lumbarcheck.Checker {
 }
 
 // Check implement func
-func (c *Checker) Check(dsn string) (err error) {
+func (c *Checker) Check(dataSource string) (err error) {
 	db, _ := sql.Open(constants.MySQL, dsn)
 
 	defer db.Close()
