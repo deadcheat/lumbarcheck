@@ -16,3 +16,6 @@ lumbarcheck
 
 # test cover profiles
 *.coverprofile
+
+# dist
+dist
