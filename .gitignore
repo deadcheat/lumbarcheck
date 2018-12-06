@@ -13,3 +13,6 @@
 
 # built binary name
 lumbarcheck
+
+# test cover profiles
+*.coverprofile
