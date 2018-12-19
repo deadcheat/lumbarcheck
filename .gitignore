@@ -12,7 +12,7 @@
 *.out
 
 # built binary name
-lumbarcheck
+/lumbarcheck
 
 # test cover profiles
 *.coverprofile
